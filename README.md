@@ -1,8 +1,9 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
+  <a href="https://portifolio2-0-virid.vercel.app/"></a>
 </h2>
 <div align="center">
- ![alt text](image.png)
+ <img src="./Images/readme-img.png" alt="foto da pagina inicial">
 </div>
 
 <br/>

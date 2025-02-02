@@ -22,7 +22,7 @@ function Home2() {
               <br />
               <br />Minha especialidade é no desenvolvimento Front-end, com foco em 
               <i>
-                <b className="purple"> Paginas responsivas, de alto desempenho e aplicativos modernos. </b>
+                <b className="purple"> Paginas responsivas, de alto desempenho e aplicativos modernos, </b> mas trabalho com desenvolvimento Full Stack.
               </i>
               <br />
               <br />
