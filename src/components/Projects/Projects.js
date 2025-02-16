@@ -10,6 +10,8 @@ import img5 from "../../Assets/Projects/img5.png";
 import img6 from "../../Assets/Projects/img6.png";
 import img7 from "../../Assets/Projects/img7.png";
 import img8 from "../../Assets/Projects/img8.png";
+import img9 from "../../Assets/Projects/img9.png";
+import img10 from "../../Assets/Projects/img10.png";
 
 function Projects() {
   return (
@@ -23,6 +25,66 @@ function Projects() {
         Aqui estão alguns projetos nos quais trabalhei recentemente.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img2}
+              isBlog={false}
+              title="O Bahia Gastrobar"
+              description="Este é o meu primeiro projeto freelancer, onde uma empresa de gastronomia me contratou para desenvolver um cardapio completo. nele eu utilizei HTML, CSS e Javascript."
+              ghLink="https://github.com/Matheus-sp12/oBahiaGastrobar"
+              demoLink="https://o-bahia-gastrobar-6kt4.vercel.app/"     
+            />
+          </Col>
+
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img8}
+              isBlog={false}
+              title="Adega-pocao-magica"
+              description="Após finalizar meu curso de Javascript, desenvolvi este projeto simulando uma adega, aonde o cliente consegue selecionar as bebidas e adicionar ao carrinho e com horario de funcionamento. Nele  eu utilizei HTML, CSS e Javascript."
+              ghLink="https://github.com/Matheus-sp12/Adega-pocao-magica"
+              demoLink="https://adega-pocao-magica.vercel.app/"     
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img9}
+              isBlog={false}
+              title="Spotify"
+              description="Este é um projeto full-stack inspirado no Spotify. Com ele, é possível ouvir músicas de artistas específicos e suas mais populares.
+Fiz tanto o front-end quanto o back-end, utilizando React, CSS, MongoDB e Express, garantindo uma experiência fluida e dinâmica. "
+              ghLink="https://github.com/Matheus-sp12/Spotify"
+              demoLink="https://spotify-2-1pk8.onrender.com/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img10}
+              isBlog={false}
+              title="Silva Barber Shop"
+              description="O site Silva Barber Shop é uma plataforma online que oferece serviços de agendamento para uma barbearia. Através dele, os clientes podem visualizar os serviços disponíveis, como cortes de cabelo e aparo de barba, e realizar reservas de forma prática e eficiente. projeto desenvolvido em React."
+              ghLink="https://github.com/Matheus-sp12/Silva-Barber-Shop"
+              demoLink="https://silva-barber-shop-5avw.vercel.app/"              
+            />
+          </Col>
+          
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img3}
+              isBlog={false}
+              title="Hamburgueria"
+              description="Projeto criado nas aulas do professor Weverton, onde é uma plataforma de pedidos online para uma hamburgueria, oferecendo um cardápio variado e funcionalidades como carrinho de compras e depoimentos de clientes, aone o cliente pode fazer pedidos online e receber notificações sobre o status do pedido."
+              ghLink="https://github.com/Matheus-sp12/Hamburgueria-curso"
+              demoLink="https://hamburgueria-curso.vercel.app/"              
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={img4}
@@ -44,16 +106,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={img3}
-              isBlog={false}
-              title="Hamburgueria"
-              description="Projeto criado nas aulas do professor Weverton, onde é uma plataforma de pedidos online para uma hamburgueria, oferecendo um cardápio variado e funcionalidades como carrinho de compras e depoimentos de clientes, aone o cliente pode fazer pedidos online e receber notificações sobre o status do pedido."
-              ghLink="https://github.com/Matheus-sp12/Hamburgueria-curso"
-              demoLink="https://hamburgueria-curso.vercel.app/"              
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -79,28 +131,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={img2}
-              isBlog={false}
-              title="O Bahia Gastrobar"
-              description="Este é o meu primeiro projeto freelancer, onde uma empresa de gastronomia me contratou para desenvolver um cardapio completo. nele eu utilizei HTML, CSS e Javascript."
-              ghLink="https://github.com/Matheus-sp12/oBahiaGastrobar"
-              demoLink="https://o-bahia-gastrobar-6kt4.vercel.app/"     
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={img8}
-              isBlog={false}
-              title="Adega-pocao-magica"
-              description="Após finalizar meu curso de Javascript, desenvolvi este projeto simulando uma adega, aonde o cliente consegue selecionar as bebidas e adicionar ao carrinho e com horario de funcionamento. Nele  eu utilizei HTML, CSS e Javascript."
-              ghLink="https://github.com/Matheus-sp12/Adega-pocao-magica"
-              demoLink="https://adega-pocao-magica.vercel.app/"     
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={img7}
               isBlog={false}
               title="House of Dragons"
@@ -110,16 +140,6 @@ function Projects() {
             />
           </Col>
 
-      <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={img8}
-              isBlog={false}
-              title="Adega-pocao-magica"
-              description="Após finalizar meu curso de Javascript, desenvolvi este projeto simulando uma adega, aonde o cliente consegue selecionar as bebidas e adicionar ao carrinho e com horario de funcionamento. Nele  eu utilizei HTML, CSS e Javascript."
-              ghLink="https://github.com/Matheus-sp12/Adega-pocao-magica"
-              demoLink="https://adega-pocao-magica.vercel.app/"     
-            />
-          </Col> 
         </Row>
       </Container>
     </Container>
