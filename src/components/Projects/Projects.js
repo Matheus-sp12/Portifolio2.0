@@ -12,6 +12,11 @@ import img7 from "../../Assets/Projects/img7.png";
 import img8 from "../../Assets/Projects/img8.png";
 import img9 from "../../Assets/Projects/img9.png";
 import img10 from "../../Assets/Projects/img10.png";
+import img11 from "../../Assets/Projects/img-11.png";
+import img12 from "../../Assets/Projects/img12.png";
+import img13 from "../../Assets/Projects/img13.png";
+import img14 from "../../Assets/Projects/img14.png";
+import img15 from "../../Assets/Projects/img15.png";
 
 function Projects() {
   return (
@@ -37,6 +42,17 @@ function Projects() {
               demoLink="https://o-bahia-gastrobar-6kt4.vercel.app/"     
             />
           </Col>
+         
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img12}
+              isBlog={false}
+              title="Psicoterapia"
+              description="Projero desenvolvido de um site criado para uma psicóloga, fornecer informações sobre seus serviços, incluindo agendamento de sessões, FAQ, depoimentos, e mais. O projeto foi desenvolvido utilizando React e Sass , com várias bibliotecas para funcionalidade adicional."
+              ghLink="https://github.com/Matheus-sp12/Psicologa"
+              demoLink="https://psicologa-puce.vercel.app/"     
+            />
+          </Col>
 
           
           <Col md={4} className="project-card">
@@ -52,13 +68,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={img9}
+              imgPath={img13}
               isBlog={false}
-              title="Spotify"
-              description="Este é um projeto full-stack inspirado no Spotify. Com ele, é possível ouvir músicas de artistas específicos e suas mais populares.
-Fiz tanto o front-end quanto o back-end, utilizando React, CSS, MongoDB e Express, garantindo uma experiência fluida e dinâmica. "
-              ghLink="https://github.com/Matheus-sp12/Spotify"
-              demoLink="https://spotify-2-1pk8.onrender.com/"              
+              title="Easy Visa"
+              description="Projero desenvolvido com Typescript, React e Sass, onde fizemos uma plataforma de viagens que mostra todos os serviços, o cliente também consegue escolher o serviço que ele deseja e enviar o pedido para o Whatsapp, incluido tambeém os 7 idiomas mais utilizados no mundo."
+              ghLink="https://github.com/Matheus-sp12/-Easy-Visa"
+              demoLink="https://easy-visa-six.vercel.app/"     
             />
           </Col>
 
@@ -72,7 +87,18 @@ Fiz tanto o front-end quanto o back-end, utilizando React, CSS, MongoDB e Expres
               demoLink="https://silva-barber-shop-5avw.vercel.app/"              
             />
           </Col>
-          
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img9}
+              isBlog={false}
+              title="Spotify"
+              description="Este é um projeto full-stack inspirado no Spotify. Com ele, é possível ouvir músicas de artistas específicos e suas mais populares.
+Fiz tanto o front-end quanto o back-end, utilizando React, CSS, MongoDB e Express, garantindo uma experiência fluida e dinâmica. "
+              ghLink="https://github.com/Matheus-sp12/Spotify"
+              demoLink="https://spotify-2-1pk8.onrender.com/"              
+            />
+          </Col>      
           
           <Col md={4} className="project-card">
             <ProjectCard
@@ -139,6 +165,45 @@ Fiz tanto o front-end quanto o back-end, utilizando React, CSS, MongoDB e Expres
               demoLink="https://house-of-the-dragons.vercel.app/"     
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img11}
+              isBlog={false}
+              title="Sellphone"
+              description="Projero desenvolvido utilizando React, Next.js e Tailwind, onde o cliente consegue escolher a capinha dpo celular que ele deseja e enviar o pedido para o Whatsapp da loja e a loja consegue fazer o pedido para o cliente."
+              ghLink="https://github.com/Matheus-sp12/CeelPhones"
+              demoLink="https://ceel-phones.vercel.app/"     
+            />
+          </Col>
+
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img14}
+              isBlog={false}
+              title="King Blindagem"
+              description="Projeto desenvolvido para uma empresa de blindagem, onde foi utilizado React, Sass e Typescript, onde conta um pouco sobre a empresa e mostra os serviços que ela oferece, e o cliente também consegue chamar a empresa pelo Whatsapp e solicitar o serviço."
+              ghLink="https://github.com/Matheus-sp12/kingBlindagem"
+              demoLink="https://king-blindagem-beta.vercel.app/"     
+            />
+          </Col>
+
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img15}
+              isBlog={false}
+              title="PrimeAC"
+              description="Projeto desenvolvido para uma empresa de Consultoria especializada, onde foi utilizado React, Sass e Typescript, onde foi desenvolvido umma pagina mostrando como que a empresa funciona e seus serviços, mostramos também as parcerias que a empresa possui."
+              ghLink="https://github.com/Matheus-sp12/PrimeACC"
+              demoLink="https://github.com/Matheus-sp12/kingBlindagem"     
+            />
+          </Col>
+
+
+
+          
 
         </Row>
       </Container>
