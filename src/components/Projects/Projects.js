@@ -17,6 +17,7 @@ import img12 from "../../Assets/Projects/img12.png";
 import img13 from "../../Assets/Projects/img13.png";
 import img14 from "../../Assets/Projects/img14.png";
 import img15 from "../../Assets/Projects/img15.png";
+import img16 from "../../Assets/Projects/img16.png";
 
 function Projects() {
   return (
@@ -34,7 +35,7 @@ function Projects() {
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={img11}
+              imgPath={img16}
               isBlog={false}
               title="Adopet"
               description="Automação desenvolvida com Cypress, com foco em validar o comportamento e a estabilidade da aplicação. Foram criados cenários de teste abrangendo login, cadastro, envio de e-mail e adoção, garantindo o correto funcionamento dos principais fluxos do sistema."
