@@ -27,22 +27,32 @@ function Projects() {
           Meus <strong className="purple">Projetos </strong>
         </h1>
         <p style={{ color: "white" }}>
-        Aqui estão alguns projetos nos quais trabalhei recentemente.
+          Aqui estão alguns projetos nos quais trabalhei recentemente.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img11}
+              isBlog={false}
+              title="Adopet"
+              description="Automação desenvolvida com Cypress, com foco em validar o comportamento e a estabilidade da aplicação. Foram criados cenários de teste abrangendo login, cadastro, envio de e-mail e adoção, garantindo o correto funcionamento dos principais fluxos do sistema."
+              ghLink="https://github.com/Matheus-sp12/Adopet-automa-o"
+            />
+          </Col>
 
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={img2}
               isBlog={false}
               title="O Bahia Gastrobar"
               description="Este é o meu primeiro projeto freelancer, onde uma empresa de gastronomia me contratou para desenvolver um cardapio completo. nele eu utilizei HTML, CSS e Javascript."
               ghLink="https://github.com/Matheus-sp12/oBahiaGastrobar"
-              demoLink="https://o-bahia-gastrobar-6kt4.vercel.app/"     
+              demoLink="https://o-bahia-gastrobar-6kt4.vercel.app/"
             />
           </Col>
-         
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={img12}
@@ -50,11 +60,10 @@ function Projects() {
               title="Psicoterapia"
               description="Projero desenvolvido de um site criado para uma psicóloga, fornecer informações sobre seus serviços, incluindo agendamento de sessões, FAQ, depoimentos, e mais. O projeto foi desenvolvido utilizando React e Sass , com várias bibliotecas para funcionalidade adicional."
               ghLink="https://github.com/Matheus-sp12/Psicologa"
-              demoLink="https://psicologa-puce.vercel.app/"     
+              demoLink="https://psicologa-puce.vercel.app/"
             />
           </Col>
 
-          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={img8}
@@ -62,7 +71,7 @@ function Projects() {
               title="Adega-pocao-magica"
               description="Após finalizar meu curso de Javascript, desenvolvi este projeto simulando uma adega, aonde o cliente consegue selecionar as bebidas e adicionar ao carrinho e com horario de funcionamento. Nele  eu utilizei HTML, CSS e Javascript."
               ghLink="https://github.com/Matheus-sp12/Adega-pocao-magica"
-              demoLink="https://adega-pocao-magica.vercel.app/"     
+              demoLink="https://adega-pocao-magica.vercel.app/"
             />
           </Col>
 
@@ -73,7 +82,7 @@ function Projects() {
               title="Easy Visa"
               description="Projero desenvolvido com Typescript, React e Sass, onde fizemos uma plataforma de viagens que mostra todos os serviços, o cliente também consegue escolher o serviço que ele deseja e enviar o pedido para o Whatsapp, incluido tambeém os 7 idiomas mais utilizados no mundo."
               ghLink="https://github.com/Matheus-sp12/-Easy-Visa"
-              demoLink="https://easy-visa-six.vercel.app/"     
+              demoLink="https://easy-visa-six.vercel.app/"
             />
           </Col>
 
@@ -84,7 +93,7 @@ function Projects() {
               title="Silva Barber Shop"
               description="O site Silva Barber Shop é uma plataforma online que oferece serviços de agendamento para uma barbearia. Através dele, os clientes podem visualizar os serviços disponíveis, como cortes de cabelo e aparo de barba, e realizar reservas de forma prática e eficiente. projeto desenvolvido em React."
               ghLink="https://github.com/Matheus-sp12/Silva-Barber-Shop"
-              demoLink="https://silva-barber-shop-5avw.vercel.app/"              
+              demoLink="https://silva-barber-shop-5avw.vercel.app/"
             />
           </Col>
 
@@ -96,10 +105,10 @@ function Projects() {
               description="Este é um projeto full-stack inspirado no Spotify. Com ele, é possível ouvir músicas de artistas específicos e suas mais populares.
 Fiz tanto o front-end quanto o back-end, utilizando React, CSS, MongoDB e Express, garantindo uma experiência fluida e dinâmica. "
               ghLink="https://github.com/Matheus-sp12/Spotify"
-              demoLink="https://spotify-2-1pk8.onrender.com/"              
+              demoLink="https://spotify-2-1pk8.onrender.com/"
             />
-          </Col>      
-          
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={img3}
@@ -107,7 +116,7 @@ Fiz tanto o front-end quanto o back-end, utilizando React, CSS, MongoDB e Expres
               title="Hamburgueria"
               description="Projeto criado nas aulas do professor Weverton, onde é uma plataforma de pedidos online para uma hamburgueria, oferecendo um cardápio variado e funcionalidades como carrinho de compras e depoimentos de clientes, aone o cliente pode fazer pedidos online e receber notificações sobre o status do pedido."
               ghLink="https://github.com/Matheus-sp12/Hamburgueria-curso"
-              demoLink="https://hamburgueria-curso.vercel.app/"              
+              demoLink="https://hamburgueria-curso.vercel.app/"
             />
           </Col>
 
@@ -131,7 +140,6 @@ Fiz tanto o front-end quanto o back-end, utilizando React, CSS, MongoDB e Expres
               ghLink="https://github.com/Matheus-sp12/mario-Kart"
             />
           </Col>
-
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -162,7 +170,7 @@ Fiz tanto o front-end quanto o back-end, utilizando React, CSS, MongoDB e Expres
               title="House of Dragons"
               description="Projero desenvolvido para estudar HTML, CSS e Javascript, aonde fiz como se fosse a plataforma da HBOMAX, simulando minha serie favorita House of Dragons. Nele  eu utilizei HTML, CSS e Javascript."
               ghLink="https://github.com/Matheus-sp12/House-of-the-Dragons"
-              demoLink="https://house-of-the-dragons.vercel.app/"     
+              demoLink="https://house-of-the-dragons.vercel.app/"
             />
           </Col>
 
@@ -173,11 +181,10 @@ Fiz tanto o front-end quanto o back-end, utilizando React, CSS, MongoDB e Expres
               title="Sellphone"
               description="Projero desenvolvido utilizando React, Next.js e Tailwind, onde o cliente consegue escolher a capinha dpo celular que ele deseja e enviar o pedido para o Whatsapp da loja e a loja consegue fazer o pedido para o cliente."
               ghLink="https://github.com/Matheus-sp12/CeelPhones"
-              demoLink="https://ceel-phones.vercel.app/"     
+              demoLink="https://ceel-phones.vercel.app/"
             />
           </Col>
 
-          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={img14}
@@ -185,11 +192,10 @@ Fiz tanto o front-end quanto o back-end, utilizando React, CSS, MongoDB e Expres
               title="King Blindagem"
               description="Projeto desenvolvido para uma empresa de blindagem, onde foi utilizado React, Sass e Typescript, onde conta um pouco sobre a empresa e mostra os serviços que ela oferece, e o cliente também consegue chamar a empresa pelo Whatsapp e solicitar o serviço."
               ghLink="https://github.com/Matheus-sp12/kingBlindagem"
-              demoLink="https://king-blindagem-beta.vercel.app/"     
+              demoLink="https://king-blindagem-beta.vercel.app/"
             />
           </Col>
 
-          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={img15}
@@ -197,14 +203,9 @@ Fiz tanto o front-end quanto o back-end, utilizando React, CSS, MongoDB e Expres
               title="PrimeAC"
               description="Projeto desenvolvido para uma empresa de Consultoria especializada, onde foi utilizado React, Sass e Typescript, onde foi desenvolvido umma pagina mostrando como que a empresa funciona e seus serviços, mostramos também as parcerias que a empresa possui."
               ghLink="https://github.com/Matheus-sp12/PrimeACC"
-              demoLink="https://github.com/Matheus-sp12/kingBlindagem"     
+              demoLink="https://github.com/Matheus-sp12/kingBlindagem"
             />
           </Col>
-
-
-
-          
-
         </Row>
       </Container>
     </Container>
