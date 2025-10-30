@@ -87,7 +87,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Curriculo
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Automações
               </Nav.Link>
             </Nav.Item>
 

@@ -11,9 +11,9 @@ function AboutCard() {
             Olá pessoal, eu sou o<span className="purple"> Vinicius Silva </span>
             e Moro em<span className="purple"> São Paulo, Brasil.</span>
             <br />
-            Atualmente, trabalho como desenvolvedor full stack freelancer.
+            Atualmente, trabalho como Quality Assurance (QA).
             <br />
-            Sou formado em Ciência da Computação pela Uninove e estou concluindo minha especialização em Full Stack Java pela EBAC.
+            Sou formado em Ciência da Computação pela Uninove e estou concluindo minha especialização em Qualidade de Software pela DIO.
             <br />
             <br />
             Além de codificação, algumas outras atividades que adoro fazer!

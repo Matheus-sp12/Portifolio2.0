@@ -2,10 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/eu.jpg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -18,20 +15,33 @@ function Home2() {
               Deixe me <span className="purple"> Apresentar </span>
             </h1>
             <p className="home-about-body">
-            Escolhi essa area pois sempref fui apaixonado por jogos e entrei na intenção de criar jogos mas acabei me apaixonando por desenvolvimento de software.
+              Sempre fui apaixonado por tecnologia e desenvolvimento, e foi
+              nessa jornada que descobri meu verdadeiro interesse pela qualidade
+              de software. Iniciei minha trajetória como estagiário em QA,
+              evoluindo até me tornar QA Júnior, com foco em garantir que cada
+              produto entregue ofereça excelência, performance e confiabilidade.{" "}
               <br />
-              <br />Minha especialidade é no desenvolvimento Front-end, com foco em 
               <i>
-                <b className="purple"> Paginas responsivas, de alto desempenho e aplicativos modernos, </b> mas trabalho com desenvolvimento Full Stack.
+                <b className="purple">
+                  Atualmente atuo com testes manuais e automatizados, possuo
+                  conhecimento em:
+                </b>{" "}
               </i>
               <br />
               <br />
-              Tenho interesse em <b className="purple"> desenvolver novas tecnologias,  criar produtos para a web e aplicativos inovadores&nbsp;</b>
-              <i>
-              </i>
+              Tenho como objetivo{" "}
+              <b className="purple">
+                {" "}
+                garantir a melhor experiência do usuário, identificar erros
+                antes que cheguem em produção e contribuir ativamente na
+                melhoria contínua dos processos e produtos.&nbsp;
+              </b>
+              <i></i>
               <br />
               <br />
-              Sempre que possível, também aplico minha paixão por desenvolver produtos com <b className="purple">Node.js e bibliotecas e frameworks Javascript </b> modernos como <b className="purple"> React.js e Next.js.</b>
+              Sempre busco aprender novas ferramentas e técnicas de automação,
+              pois acredito que um bom QA vai além de testar, ele entende o
+              produto, previne falhas e entrega qualidade com propósito.{" "}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -44,7 +54,8 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>Encontre-me em</h1>
             <p>
-            Sinta-se à vontade para se <span className="purple">conectar comigo </span>
+              Sinta-se à vontade para se{" "}
+              <span className="purple">conectar comigo </span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
